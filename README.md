@@ -1,6 +1,6 @@
 # vscode-cpp-raw-string-highlighter
 
-Syntax highlighting and IntelliSense for [C++ raw string literals](https://abseil.io/tips/64). This was inspired by my time writing js with [vscode-styled-components](https://github.com/styled-components/vscode-styled-components) and motivated by my use of cpp raw strings at work.
+Syntax highlighting and IntelliSense for [C++ raw string literals](https://abseil.io/tips/64). This was inspired by my time writing js with [vscode-styled-components](https://github.com/styled-components/vscode-styled-components) (from which this project was forked) and motivated by my use of cpp raw strings at work.
 
 ## Install
 
