@@ -1,32 +1,20 @@
-# vscode-styled-components
+# vscode-cpp-raw-string-highlighter
 
-Syntax highlighting and IntelliSense for [styled-components](https://github.com/styled-components/styled-components).
-
-![Syntax highlighting in action](demo.png)
-
-Uses a CSS grammar built on top of [language-sass](https://github.com/atom/language-sass) and [language-css](https://github.com/atom/language-css).
+Syntax highlighting and IntelliSense for [C++ raw string literals](https://abseil.io/tips/64). This was inspired by my time writing js with [vscode-styled-components](https://github.com/styled-components/vscode-styled-components) and motivated by my use of cpp raw strings at work.
 
 ## Install
 
-Inside VSCode, press `Ctrl+P`, and enter:
-
-```
-ext install vscode-styled-components
-```
-
-It should be the top result.
-
-[[Source](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)]
+The extension will be listed on the [Open VSX Registry](https://open-vsx.org/) as well as the MS official extension store when it is in a functional state.
 
 ## Features
 
 - Syntax highlighting for styled components in JavaScript and TypeScript.
-- Detailed CSS IntelliSense while working in styled strings.
-- Syntax error reporting.
+- IntelliSense powered by vscode's language support for the configured language
+- Configurable tag language mappings for your own cpp raw string conventions
 
 ## Usage
 
-The styled-components extension adds highlighting and IntelliSense for styled-component template strings in JavaScript and TypeScript. See [plugin configuration](https://github.com/Microsoft/typescript-styled-plugin#configuration) for information on configuring the linter and other language features.
+Forthcoming.
 
 ## Raising an issue
 
@@ -35,4 +23,4 @@ Issues with the most votes tend to be prioritised.
 
 ## Contributing
 
-see [Contributing](./CONTRIBUTING.md)
+See [Contributing](./CONTRIBUTING.md). Pull requests are encouraged and will go through a code review process for both style and content.
