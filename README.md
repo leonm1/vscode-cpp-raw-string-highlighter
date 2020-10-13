@@ -8,7 +8,7 @@ The extension will be listed on the [Open VSX Registry](https://open-vsx.org/) a
 
 ## Features
 
-- Syntax highlighting for styled components in JavaScript and TypeScript.
+- Syntax highlighting for languages within cpp's R"()" raw strings
 - IntelliSense powered by vscode's language support for the configured language
 - Configurable tag language mappings for your own cpp raw string conventions
 
